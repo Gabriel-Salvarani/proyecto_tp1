@@ -1,0 +1,34 @@
+.navbar
+{
+    background-color: rgb(162, 223, 243)!important;
+}
+
+.submenu
+{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.titulo
+{
+    font-weight: bold;
+}
+.nav-bar .nav-link
+{
+    height: 100%;
+}
+.nav-item
+{
+    padding: 5px;
+}
+
+.nav-item:hover
+{
+    background-color: rgb(102, 198, 230)!important;
+}
+/*seccion inicio*/
+.hero-img
+{
+    width: 100%;
+    object-fit: cover;
+}
