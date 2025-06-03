@@ -1,3 +1,4 @@
+/*barra de navegacion*/
 .navbar
 {
     background-color: rgb(162, 223, 243)!important;
@@ -85,6 +86,7 @@
     border-radius: 15px;
     z-index: 2;
 }
+/*sobre-mi*/
 .sobre-mi 
 {
     display: flex;
@@ -131,6 +133,7 @@
     content: '"';
     margin-left: 4px;
 }
+/*habilidades*/
 .skills
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -184,4 +187,59 @@
 {
     margin-right: 12px;
     font-size: 23px;
+}
+/*proyectos*/
+.proyecto {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.proyecto h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.proyect-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin:  0 auto;
+}
+
+.proyecto-card {
+    background-color: #7dcff5e1;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.proyecto-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+.proyecto-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.proyecto-card p {
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
+.proyecto-card .portafolio-card
+{
+    height: 200px;
+    object-fit: cover;
 }
