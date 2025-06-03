@@ -131,3 +131,57 @@
     content: '"';
     margin-left: 4px;
 }
+.skills
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 2.5rem auto;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+.skills h2
+{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    color: #2c3e50;
+    font-weight: 500;
+}
+.skill-grid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.skill-grid li
+{
+    background-color: #25405c;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+}
+.fa-html5
+{
+    margin-right: 12px;
+    font-size: 20px;
+}
+.fa-css
+{
+    margin-right: 12px;
+    font-size: 20px;
+}
+.fa-git-alt
+{
+    margin-right: 12px;
+    font-size: 23px;
+}
