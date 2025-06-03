@@ -38,7 +38,7 @@
     align-items: center;
     box-sizing: border-box;
     background: url(./assets/hero.jpg);
-    height: 500px;
+    height: 600px;
     background-size: cover;
 }
 
@@ -47,7 +47,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* oscurece el fondo */
 }
@@ -66,7 +66,7 @@
 {
     font-size: 1.4rem;
     font-weight: 500;
-    color: #2c3e60;
+    color: #2c3e50;
     background-color: rgba(255,255,255,0.5);
     padding: 5px 10px;
     border-radius: 10px;
@@ -84,4 +84,50 @@
     padding: 9px 15px;
     border-radius: 15px;
     z-index: 2;
+}
+.sobre-mi 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 45px;
+    background-color: #5aa9f8;
+}
+.sobre-mi h2
+{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.sobre-mi p
+{
+    padding: 40px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sobre-mi-text
+{
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+}
+.sobre-mi-text::before,
+.sobre-mi-text::after
+{
+    font-size: 35px;
+    vertical-align: top;
+    line-height: 0.8;
+    font-family: serif;
+    color: #000;
+}
+.sobre-mi-text::before
+{
+    content: '"';
+    margin-right: 4px;
+}
+.sobre-mi-text::after
+{
+    content: '"';
+    margin-left: 4px;
 }
