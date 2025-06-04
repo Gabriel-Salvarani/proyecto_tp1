@@ -1,7 +1,16 @@
 /*barra de navegacion*/
+div[id]
+{
+    scroll-margin-top: 90px;
+}
 .navbar
 {
     background-color: rgb(162, 223, 243)!important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .submenu
@@ -39,7 +48,7 @@
     align-items: center;
     box-sizing: border-box;
     background: url(./assets/hero.jpg);
-    height: 600px;
+    height: 650px;
     background-size: cover;
 }
 
@@ -48,7 +57,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 600px;
+    height: 650px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* oscurece el fondo */
 }
